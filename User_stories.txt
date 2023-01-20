@@ -1,0 +1,52 @@
+	LISTE DES EPICS :
+Consultation & échange NFT
+gestion du compte
+gestion du wallet
+sécuriser la plateforme
+---------------------------------------------------------------
+
+visiteurs
+administrateur
+plateforme
+utilisateur
+super-utilisateur
+
+---------------------------------------------------------------
+	USER STORIES / TICKET
+
+En tant qu’un utilisateur lambda, je souhaite a accès à :
+
+• Une page d’accueil présentant le projet
+• La liste des NFTs disponibles (avec des informations autour de ces derniers)
+• La page détaillée d’un NFT lorsqu’on clique dessus
+
+Afin de .....
+-----------------------------------
+
+En tant qu’un utilisateur connecté, je souhaite :
+
+- créer une sorte de galerie de tous les NFTs qu’ils possèdent en rapport à la plateforme.
+- rentrer manuellement les NFTs qu’ils possèdent sur son compte
+- sa galerie lui affichera des graphiques et des informations autour des cryptomonnaies afin de traquer la valeur de ses investissements.
+- gérer en CRUD les NFTs que l’utilisateur connecté possède. (voir, ajouter, modifier, supprimer un NFT)
+-----------------------------------
+
+En tant que l'administrateur, je souhaite :
+
+- manager toutes les données de sa plateforme
+- pouvoir consulter, créer, modifier ou supprimer des :
+• NFTs
+• Utilisateurs
+• Catégories & Sous-catégories
+
+- être sécurisée par une authentification à jeton. 
+- Pour chaque CRUD, effectuer des tris ou une recherche.
+-----------------------------------
+
+En tant que, plateforme je souhaite :
+
+- accès de manière anonyme à certaines pages
+
+- accès non anonyme pour la gestion de la galerie de l’utilisateur connecté.
+
+- gérer l’inscription ainsi que l’authentification de l’utilisateur (grâce à un jeton)
