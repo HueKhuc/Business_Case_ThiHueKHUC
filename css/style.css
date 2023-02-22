@@ -36,6 +36,9 @@ a {
     color: inherit;
 }
 
+ul{
+    list-style: none;
+}
 /*********** 
 CLASSES GLOBALES
  ***********/
@@ -85,7 +88,9 @@ CSS PAR SECTION
  ***********/
 /************ footer ************/
 
-
+footer img {
+    width: 48px;
+}
 
 /************ header ************/
 header {
@@ -119,13 +124,29 @@ header .txt {
 #projet img {
     aspect-ratio: 1/1;
     object-fit: cover;
-    width: 400px;
+    width: 300px;
 }
 
-#projet p {
+#projet p, #entreprise p {
     text-align: justify;
 }
 
+#tendances img {
+    aspect-ratio: 2/3;
+    max-height: 100vh;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#fqa article{
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+#fqa article img {
+    width: 200px;
+    object-fit: cover;
+}
 /*********** 
 RESPONSIVE
  ***********/
